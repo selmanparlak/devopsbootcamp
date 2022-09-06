@@ -81,7 +81,7 @@ kubectl create ingress rgb \
 
 linux sunucu ip adresimin sonuna nip.io ekledim. nip.io,örneğin red.192.168.25.144.nip.io adresine dns isteği gelirse bize 192.168.25.144 adresini döndürüyor.
 
-burada [red.192.168.25.144.nip.io](http://red.192.168.25.144.nip.io/),[green.192.168.25.144.nip.io](http://green.192.168.25.144.nip.io/),[blue.192.168.25.144.nip.io](http://blue.192.168.25.144.nip.io/) adresine gelen istekleri sırasıyla red,green,blue servislerinin 80 portuna yönlendirme yapıyor.
+burada red.192.168.25.144.nip.io,green.192.168.25.144.nip.io,blue.192.168.25.144.nip.io adresine gelen istekleri sırasıyla red,green,blue servislerinin 80 portuna yönlendirme yapıyor.
 
 ![4](https://user-images.githubusercontent.com/67348445/188748815-de71a065-8316-418b-ba56-747be95034bb.png)
 
