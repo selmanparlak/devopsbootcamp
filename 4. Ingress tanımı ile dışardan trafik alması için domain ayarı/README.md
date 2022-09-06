@@ -7,7 +7,7 @@ kubectl create ingress red \
   --rule=red.A.B.C.D.nip.io/*=red:80
 ```
 
-[red.A.B.C.D.nip.io](http://red.A.B.C.D.nip.io) adresine gelen istekleri red servisinin 80 portuna yönlendir anlamına gelir.
+red.A.B.C.D.nip.io adresine gelen istekleri red servisinin 80 portuna yönlendir anlamına gelir.
 
 çoklu kurallar da yapabiliriz.
 
