@@ -73,7 +73,7 @@ Clusterın  durumunu kontrol etmek için
 kubectl get innodbcluster --watch
 ```
 
-![Ekran görüntüsü 2022-09-03 180736.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3824eb7b-442f-4186-aca0-b0d9fce0d0ce/Ekran_grnts_2022-09-03_180736.png)
+![1](https://user-images.githubusercontent.com/67348445/188745317-b11118f9-7b19-4f01-8995-bd5d47c19d29.png)
 
 artık MySQL’e bağlanabiliriz.
 
@@ -85,7 +85,8 @@ MySQL InnoDB Kümesini yönetmek için MySQL Shell ile yeni bir kapsayıcı olu�
 
 oluşturduğumuz secret dosyasındaki parola isteniyor. Benim şifrem “parlak”
 
-![Ekran görüntüsü 2022-09-03 181118.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c603d1d-8a92-4bf2-8bf6-b92671e06aa1/Ekran_grnts_2022-09-03_181118.png)
+![2](https://user-images.githubusercontent.com/67348445/188745320-244b5784-2065-4989-b83c-a841159381f1.png)
+
 
 ### Helm kullanarak WordPress kurulumu:
 
@@ -103,7 +104,8 @@ sudo apt-get install helm
 
 Helm’i kurduktan sonra sunucu veya sisteminizde docker ve k3s olması gerekiyor. Yoksa aşağıdaki gibi bir hata alabilirsiniz.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/deea2fac-fc00-4714-880e-177199726d62/Untitled.png)
+![3](https://user-images.githubusercontent.com/67348445/188745321-28af1d94-097e-490d-95ae-a8e3f498dee8.png)
+
 
 yine hata alıyorsanız şu kodu deneyebilirsiniz.
 
@@ -150,7 +152,8 @@ helm install my-release -f values.yaml bitnami/mysql
 
 `primary.persistence.size` =  birincil kalıcı depolama birimi boyutu.
 
-![Ekran görüntüsü 2022-09-06 165331.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e7875089-8048-4a52-83a0-8746edd114b4/Ekran_grnts_2022-09-06_165331.png)
+![4](https://user-images.githubusercontent.com/67348445/188745322-715009d4-9996-4615-b07a-9afa14b1bd34.png)
+
 
 ```bash
 # 1. Run a pod that you can use as a client:
@@ -159,7 +162,8 @@ helm install my-release -f values.yaml bitnami/mysql
 
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3070bc9a-a669-447e-a1be-b10807d6a784/Untitled.png)
+![5](https://user-images.githubusercontent.com/67348445/188745325-46c8a0a2-134c-4e50-8019-6f0b2dda7037.png)
+
 
 ```bash
 # 2. To connect to primary service (read/write):
@@ -167,10 +171,13 @@ helm install my-release -f values.yaml bitnami/mysql
       mysql -h my-releases-mysql.default.svc.cluster.local -uroot -p"$MYSQL_ROOT_PASSWORD"
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12fb9f96-aff1-4fe4-97db-9826333c1fec/Untitled.png)
+![6](https://user-images.githubusercontent.com/67348445/188745327-2a1ce917-34e4-4c7d-83b7-08207dd61c56.png)
+
 
 `auth.rootPassword=secretpassword` = secretpassword
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1ce7658-9b21-4c13-a4e2-7b05783b29f4/Untitled.png)
+![7](https://user-images.githubusercontent.com/67348445/188745331-91e015a6-0368-4427-8da2-e493bdbe703e.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e22b4615-fa43-4c6a-8cfb-ce59c3dd35d6/Untitled.png)
+
+![8](https://user-images.githubusercontent.com/67348445/188745334-a502f138-0946-46a0-8ee1-eee99cd16658.png)
+
