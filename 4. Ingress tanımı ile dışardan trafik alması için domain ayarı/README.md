@@ -69,7 +69,8 @@ kubectl expose deployment green --port=80
 kubectl expose deployment blue  --port=80
 ```
 
-![Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1355da3e-f5b1-41e6-b459-919d6d7627ec/Untitled.png)
+![3](https://user-images.githubusercontent.com/67348445/188748194-34a76618-11ad-46bb-aa78-ce1821daa1f6.png)
+
 
 ```yaml
 kubectl create ingress rgb \
@@ -82,11 +83,14 @@ linux sunucu ip adresimin sonuna [nip.io](http://nip.io) ekledim. nip.io,örneğ
 
 burada [red.192.168.25.144.nip.io](http://red.192.168.25.144.nip.io/),[green.192.168.25.144.nip.io](http://green.192.168.25.144.nip.io/),[blue.192.168.25.144.nip.io](http://blue.192.168.25.144.nip.io/) adresine gelen istekleri sırasıyla red,green,blue servislerinin 80 portuna yönlendirme yapıyor.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd4feab3-4fa9-4e26-bdee-1a9fa88f6eeb/Untitled.png)
+![4](https://user-images.githubusercontent.com/67348445/188748199-49ff5900-d60a-4794-b577-8db738d41f68.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e76dabde-7c7b-44d4-9af6-e9a3cad504d2/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7aaeac8-87c7-4ac7-a492-33a37cb7200f/Untitled.png)
+![5](https://user-images.githubusercontent.com/67348445/188748202-ed821486-9761-4c5f-8c8d-3c7db8f0b3e6.png)
+
+
+![6](https://user-images.githubusercontent.com/67348445/188748206-0f0c4159-ac44-4616-8a3b-f7e7326eb020.png)
+
 
 **Wordpress Ingress örneği:**
 
@@ -94,11 +98,13 @@ wordpress servisine sahip bir sunucuya port yönlendirmesi yapacağım.
 
 port yönlendirmesi yapmadan önceki hali;
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0f3dce5-8024-4f91-8065-9aa967024b80/Untitled.png)
+![7](https://user-images.githubusercontent.com/67348445/188748208-07ecd49f-2a46-4a02-b6f7-83c01128083d.png)
+
 
 **Servislerimiz:**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f845f1c5-af3c-4c09-83dc-9fd1570e571b/Untitled.png)
+![8](https://user-images.githubusercontent.com/67348445/188748210-903940d6-c5e2-43bc-87f1-a6c5a1176049.png)
+
 
 ```yaml
 kubectl create ingress wordpress\
@@ -107,7 +113,8 @@ kubectl create ingress wordpress\
 
 **Sonuç:**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5284327-dfb2-4ba7-9c1a-24d602914fa1/Untitled.png)
+![9](https://user-images.githubusercontent.com/67348445/188748214-48d1e89f-e0a3-4990-81a6-a2fbbdc159aa.png)
+
 
 **google kubernetes-cluster’da wordpress için ingress oluşturdum.giriş yapmak isterseniz**
 
