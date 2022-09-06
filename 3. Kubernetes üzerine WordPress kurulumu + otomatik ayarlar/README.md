@@ -18,7 +18,8 @@ sudo apt-get install helm
 
 Helm’i kurduktan sonra sunucu veya sisteminizde docker ve k3s olması gerekiyor. Yoksa aşağıdaki gibi bir hata alabilirsiniz.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/deea2fac-fc00-4714-880e-177199726d62/Untitled.png)
+![1](https://user-images.githubusercontent.com/67348445/188746765-8647a7fb-aba6-4e65-a433-c97b58169492.png)
+
 
 yine hata alıyorsanız şu kodu deneyebilirsiniz.
 
@@ -51,7 +52,8 @@ Yukarıdaki komut, WordPress yönetici hesabı kullanıcı adını ve şifresini
 
 **Not:**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ce0297d-1cbc-4a3f-8d12-2da46d1409d5/Untitled.png)
+![2](https://user-images.githubusercontent.com/67348445/188746771-74601c6b-404a-404c-b6c2-0f0b813892cc.png)
+
 
 Selman’s Blog’unda boşluk olduğu için 2 argüman olarak alır ve hata verir. yaml dosyasında yapmak her zaman daha garantili olabilir.
 
@@ -134,7 +136,8 @@ helm install my-release -f wordpress.yaml bitnami/wordpress
 
 **Yüklendikten sonra çıktı bu şekilde olacaktır.**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e306170-cfaf-4e10-8393-f4fac40dd25b/Untitled.png)
+![3](https://user-images.githubusercontent.com/67348445/188746773-1e834e51-677b-43c4-a6a8-5ff02857a933.png)
+
 
 **Wordpress bloğumuza bağlanabilmek için:**
 
@@ -146,21 +149,25 @@ wordpressden oluşan servislerimize bakıyoruz.
 kubectl get svc 
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ceb59123-f302-49b0-b22a-87333382651e/Untitled.png)
+![4](https://user-images.githubusercontent.com/67348445/188746776-13dcfb9f-0a51-4339-b3ef-2f499dfdc0e9.png)
+
 
 localhost:port  ile bağlanabilirsiniz. benim portum 80:30451 80 burada localhostu ifade eder.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb15acaf-a2d2-4145-a91c-4616b2b73cdc/Untitled.png)
+![5](https://user-images.githubusercontent.com/67348445/188746779-fd15317c-7f0b-4d76-95ca-a37c89f7f8b5.png)
+
 
 admin paneline ulaşmak isterseniz localhost:port/wp-admin
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9b42aee-73d9-4592-bb0e-048553ed184b/Untitled.png)
+![6](https://user-images.githubusercontent.com/67348445/188746781-9f60b57f-9ebe-47f2-9c54-3b2f831c5c40.png)
+
 
 yukarıda anlattığım set ile veya yaml ile verdiğiniz `wordpressUsername` ve `wordpressPassword` ’ u burada girebilirsiniz.
 
 **ve sonuç :**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4b603cc-dbf9-4321-a81e-1dd73571b0c9/Untitled.png)
+![7](https://user-images.githubusercontent.com/67348445/188746783-1ee96cf6-dfad-4549-a212-0e0d54655d1a.png)
+
 
 **google kubernetes-cluster’da oluşturduğum wordpressden giriş yapmak isterseniz**
 
