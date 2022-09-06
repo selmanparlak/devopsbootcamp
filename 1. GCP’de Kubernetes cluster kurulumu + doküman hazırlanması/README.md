@@ -30,11 +30,12 @@ Enter authorization code kısmına alttaki kodu yapıştırırsak credentials sa
 
 **Kubernetes engine > cluster**
 
-![Ekran görüntüsü 2022-09-06 220222.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c53a6ef-c75c-40ac-8ea7-9f03174baf87/Ekran_grnts_2022-09-06_220222.png)
+![2](https://user-images.githubusercontent.com/67348445/188741781-23dc5994-f906-486e-99ac-a8f91de0d485.png)
+
 
 **Enable**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4a76847-89b5-4a76-a548-fc91f9d483a4/Untitled.png)
+![3](https://user-images.githubusercontent.com/67348445/188741786-3317560b-164e-44a8-8158-ae85378a2631.png)
 
 ## Terraform Kullanımı
 
@@ -92,7 +93,7 @@ terraform init
 
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1032fdd9-b4c4-47a0-8de5-2d1bf261d658/Ekran_grnts_2022-09-06_210718.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1032fdd9-b4c4-47a0-8de5-2d1bf261d658/Ekran_grnts_2022-09-06_210718.png)
+![4](https://user-images.githubusercontent.com/67348445/188741792-2d63b4c0-5f90-4ab6-9431-a36803e9667f.png)
 
 Terraform plan , Terraform'un altyapınızda yapmayı planladığı değişiklikleri önizlemenize olanak tanıyan bir yürütme planı oluşturur.
 
@@ -101,9 +102,11 @@ terraform plan
 
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e786e9a6-63e3-43a8-823b-965da1f53251/Untitled.png)
+![5](https://user-images.githubusercontent.com/67348445/188741796-04048806-a0ec-4345-b02a-22f93eef8977.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef819512-a286-45e8-b331-0c3ca019652f/Untitled.png)
+
+![6](https://user-images.githubusercontent.com/67348445/188741803-d8668d80-c991-47f7-9b65-99e651cf647a.png)
+
 
 Terraform apply, terraform plan tarafından oluşan yürütme planını gerçekleştirir.
 
@@ -111,20 +114,24 @@ Terraform apply, terraform plan tarafından oluşan yürütme planını gerçekl
 terraform apply
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/600df182-ea91-445b-a506-9304efac395d/Untitled.png)
+![7](https://user-images.githubusercontent.com/67348445/188741807-f529b48a-1d7a-4311-8323-ad73d176f015.png)
+
 
 **Sonuç:**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e533dd1e-d388-421f-a78a-3bbc1b52afb4/Untitled.png)
+![8](https://user-images.githubusercontent.com/67348445/188741814-e363a5c8-e1ab-4323-8e04-45cc54abe7e9.png)
 
 Oluşturduğum kubernetes cluster’a bağlanmak için
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7dbe4411-d05e-4f93-ba69-80db1e05df8a/Untitled.png)
+![9](https://user-images.githubusercontent.com/67348445/188741820-d080b7f5-e3bc-46fa-a78a-9116c5978e5b.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dc8dd243-1a90-4444-b938-a3bb957e396b/Untitled.png)
+
+![10](https://user-images.githubusercontent.com/67348445/188741824-b3a01e48-42dc-47ad-88a3-4454ab78e046.png)
+
 
 ```bash
 gcloud container clusters get-credentials bc-gke --zone europe-west3-a --project myproject-361717
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06d22626-5acc-469c-965f-b83a3f04d0f8/Untitled.png)
+![11](https://user-images.githubusercontent.com/67348445/188741829-820119f8-a331-4d6d-bd58-70fa161af96d.png)
+
