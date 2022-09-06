@@ -83,13 +83,14 @@ linux sunucu ip adresimin sonuna [nip.io](http://nip.io) ekledim. nip.io,örneğ
 
 burada [red.192.168.25.144.nip.io](http://red.192.168.25.144.nip.io/),[green.192.168.25.144.nip.io](http://green.192.168.25.144.nip.io/),[blue.192.168.25.144.nip.io](http://blue.192.168.25.144.nip.io/) adresine gelen istekleri sırasıyla red,green,blue servislerinin 80 portuna yönlendirme yapıyor.
 
-![4](https://user-images.githubusercontent.com/67348445/188748199-49ff5900-d60a-4794-b577-8db738d41f68.png)
+![4](https://user-images.githubusercontent.com/67348445/188748815-de71a065-8316-418b-ba56-747be95034bb.png)
 
 
-![5](https://user-images.githubusercontent.com/67348445/188748202-ed821486-9761-4c5f-8c8d-3c7db8f0b3e6.png)
+![5](https://user-images.githubusercontent.com/67348445/188748820-7ee4127e-0382-4114-b56a-ea710e307e3c.png)
 
 
-![6](https://user-images.githubusercontent.com/67348445/188748206-0f0c4159-ac44-4616-8a3b-f7e7326eb020.png)
+![6](https://user-images.githubusercontent.com/67348445/188748824-dbb75364-9ce3-4ce2-856a-c06a34dbc93f.png)
+
 
 
 **Wordpress Ingress örneği:**
