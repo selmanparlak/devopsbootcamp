@@ -6,5 +6,7 @@
 
 [4. Ingress tanımı ile dışardan trafik alması için domain ayarı](4.%20Ingress%20tanımı%20ile%20dışardan%20trafik%20alması%20için%20domain%20ayarı)
 
+
 http://34.89.132.191/
+
 http://wordpress.34.89.132.191.nip.io/
