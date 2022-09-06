@@ -1,1 +1,1 @@
-[this subtext](devopsbootcamp/1. GCP’de Kubernetes cluster kurulumu + doküman hazırlanması/README.md)
+[this subtext](devopsbootcamp/1.GCP’deKubernetesclusterkurulumu+doküman hazırlanması/README.md)
