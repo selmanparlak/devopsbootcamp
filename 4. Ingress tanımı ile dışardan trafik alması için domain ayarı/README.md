@@ -56,7 +56,8 @@ kubectl create deployment green --image=jpetazzo/color
 kubectl create deployment blue  --image=jpetazzo/color
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7699e437-9c60-4720-9214-dd2f758f0af5/Untitled.png)
+![2](https://user-images.githubusercontent.com/67348445/188747968-a97862a5-f8d8-4f4a-a632-b2f238066e00.png)
+
 
 hepsinin önüne ClusterIP atadık.
 
