@@ -22,7 +22,7 @@ gcloud auth application-default login
 
  linke girdikten sonra ****gcloud CLI**** ile gcp mail hesabımızı bağlıyoruz.
 
-![1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/da560ae3-0b19-4ca1-914a-16e71cc147c8/1.png)
+![1](https://user-images.githubusercontent.com/67348445/188741770-12ad7c1a-c17f-426b-86c5-57df21bcc0d1.png)
 
 Enter authorization code kısmına alttaki kodu yapıştırırsak credentials sağlanıyor.
 
