@@ -1,0 +1,28 @@
+image:
+  registry: docker.io
+  repository: bitnami/wordpress
+  tag: 5.3.2-debian-10-r32
+  pullPolicy: IfNotPresent
+  debug: false
+wordpressUsername: selman
+wordpressPassword: parlak
+wordpressEmail: selman@example.com
+wordpressFirstName: selman
+wordpressLastName: parlak
+wordpressBlogName: Selman's Blog!
+wordpressTablePrefix: wp_
+wordpressScheme: http
+wordpressSkipInstall: false
+service:
+   type: LoadBalancer
+   port: 80
+   httpsPort: 443
+   httpsTargetPort: https
+   metricsPort: 9117
+   nodePorts:
+     http: ""
+     https: ""
+     metrics: ""
+   externalTrafficPolicy: Cluster
+   annotations: {}
+   loadBalancerSourceRanges: []

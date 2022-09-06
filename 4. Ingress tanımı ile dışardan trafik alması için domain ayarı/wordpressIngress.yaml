@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  creationTimestamp: "2022-09-05T12:36:05Z"
+  generation: 1
+  name: wordpress
+  namespace: default
+  resourceVersion: "4697"
+  uid: ccc8e9a8-046a-47c7-af16-af533de2c081
+spec:
+  rules:
+  - host: wordpress.192.168.25.144.nip.io
+    http:
+      paths:
+      - backend:
+          service:
+            name: my-release-wordpress
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
+status:
+  loadBalancer:
+    ingress:
+    - ip: 192.168.25.144
