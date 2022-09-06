@@ -79,7 +79,7 @@ kubectl create ingress rgb \
   --rule="blue.192.168.25.144.nip.io/*=blue:80"
 ```
 
-linux sunucu ip adresimin sonuna [nip.io](http://nip.io) ekledim. nip.io,örneğin [red.192.168.25.144.nip.io](http://red.192.168.25.144.nip.io) adresine dns isteği gelirse bize 192.168.25.144 adresini döndürüyor.
+linux sunucu ip adresimin sonuna nip.io ekledim. nip.io,örneğin red.192.168.25.144.nip.io adresine dns isteği gelirse bize 192.168.25.144 adresini döndürüyor.
 
 burada [red.192.168.25.144.nip.io](http://red.192.168.25.144.nip.io/),[green.192.168.25.144.nip.io](http://green.192.168.25.144.nip.io/),[blue.192.168.25.144.nip.io](http://blue.192.168.25.144.nip.io/) adresine gelen istekleri sırasıyla red,green,blue servislerinin 80 portuna yönlendirme yapıyor.
 
