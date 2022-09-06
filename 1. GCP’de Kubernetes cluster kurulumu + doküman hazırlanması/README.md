@@ -1,5 +1,3 @@
-GKE Cluster bu şekilde elle kurabilmek mümkün.Fakat bizim amacımız bunları terraform ile otomatize etmek.
-
 ## Gerekli Kurulumlar:
 
 otomatize etmeden önce gerekenler;
